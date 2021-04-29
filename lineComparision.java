@@ -19,23 +19,23 @@ public class lineComparision {
 		double length2 = Math.sqrt((a2-a1)*(a2-a1))+((b2-b1)*(b2-b1));
 		System.out.println("The length of the second line is=" +length2);
 
-		 String s1 = String.valueOf(length1);
-		 String s2 = String.valueOf(length2);
+		String s1 = String.valueOf(length1);
+	        String s2 = String.valueOf(length2);
 
-		 int comparision = s1.compareTo(s2);
-		 if((comparision==0))
-		 {
-			 System.out.println("The length of line1 and line2 is equal");
-		 }
-		 else if(comparision<0)
-		 {
-			 System.out.println("The length of line1 is greater than line2");
-		 }
-		 else
-		 {
-			 System.out.println("The length of line1 is less than line2");
-		 }
-
+	        int comparision = s1.compareTo(s2);
+	        if((comparision==0))
+                {
+			System.out.println("The length of line1 and line2 is equal");
 		}
+	        else if(comparision<0)
+	        {
+	       	        System.out.println("The length of line1 is greater than line2");
+		}
+	        else
+	        {
+ 	        	System.out.println("The length of line1 is less than line2");
+		}
+
+	}
 
 }
